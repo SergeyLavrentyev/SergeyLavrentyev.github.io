@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/static/fonts/oswald.css" />
+    <link rel="shortcut icon" href="../../static/images/favicon.ico">
+    <title>Personal project</title>
+  </head>
+  <body>
+    <header class="header container">
+  <a href="/index.html" class="header__logo">
+    <img src="../../static/images/logo.svg" alt="logo" />
+  </a>
+  <div class="header__mobile">
+    <button class="header__button header__button_js" type="button">Menu</button>
+    <button class="header__button-close header__button-close_js" type="button"></button>
+  </div>
+  <nav class="header__nav">
+    <ul class="header__links">
+      <li><a href="/pages/blog/index.html" class="header__link">Blog</a></li>
+      <li><a href="/pages/category_products/index.html" class="header__link">Catalog</a></li>
+      <li><a href="/pages/toys_for_kids" class="header__link">Toys</a></li>
+      <li><a href="/pages/animation/index.html" class="header__link">Animation</a></li>
+      <li><a href="/pages/SVG/index.html" class="header__link">SVG</a></li>
+      <li><a href="/pages/grid/index.html" class="header__link">Grid</a></li>
+    </ul>
+    <ul class="header__contacts">
+      <li><a href="#" class="header__search"><img src="../../static/images/search.svg" alt="search"/></a></li>
+      <li><a href="/pages/contact_us/index.html" class="header__contact-us header__link">Contact us</a></li>
+    </ul>
+  </nav>
+</header>
+<header class="mobile-menu mobile-menu_js">
+  <nav class="mobile-menu__nav">
+    <ul class="mobile-menu__links">
+      <li>
+        <a href="/pages/blog/index.html" class="mobile-menu__link">Blog</a>
+      </li>
+      <li>
+        <a href="/pages/category_products/index.html" class="mobile-menu__link">Catalog</a>
+      </li>
+      <li>
+        <a href="/pages/toys_for_kids" class="mobile-menu__link">Toys</a>
+      </li>
+      <li>
+        <a href="/pages/animation/index.html" class="mobile-menu__link">Animation</a>
+      </li>
+      <li>
+        <a href="/pages/SVG/index.html" class="mobile-menu__link">SVG</a>
+      </li>
+      <li>
+        <a href="/pages/grid/index.html" class="mobile-menu__link">Grid</a>
+      </li>
+      <li>
+        <a href="/pages/contact_us/index.html" class="mobile-menu__contact-us mobile-menu__link">Contact us</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+    <main>
+      <section class="hero-slider container">
+        <div class="hero-slider__wrapper">
+          <span class="hero-slider__number">01</span>
+          <div class="hero-slider__nav">
+            <button class="hero-slider__btn hero-slider__btn_selected"></button>
+            <button class="hero-slider__btn"></button>
+            <button class="hero-slider__btn"></button>
+            <button class="hero-slider__btn"></button>
+          </div>
+          <div class="hero-slider__content">
+            <h2 class="hero-slider__title">THE OOH NOO COLLECTION</h2>
+            <p class="hero-slider__subtitle">Designed in Slovenia</p>
+            <a href="#" class="button hero-slider__button hero-slider__button_js">Explore Now</a>
+          </div>
+          <div class="hero-slider__poster"></div>
+        </div>
+        <p class="hero-slider__footer">
+          Free (continental) USA shipping on all orders of $100 USD or
+          more!
+        </p>
+      </section>
+      <section class="category container">
+        <h2 class="block-title category__title">Category Products</h2>
+        <ul class="category__list">
+          <li class="category__card @@grid">
+  <a href="@@link" class="category__link category__bg category__bg_apparel" style="background-image: url(./static/images/product-1.png)">
+    <span class="category__name">Apparel Kids</span>
+  </a>
+</li>
+          <li class="category__card @@grid">
+  <a href="@@link" class="category__link category__bg category__bg_holiday" style="background-image: url(./static/images/product-2.png)">
+    <span class="category__name">Holiday Shop</span>
+  </a>
+</li>
+          <li class="category__card @@grid">
+  <a href="./pages/toys_for_kids/index.html" class="category__link category__bg category__bg_toys" style="background-image: url(./static/images/product-3.png)">
+    <span class="category__name">Toys</span>
+  </a>
+</li>
+          <li class="category__card @@grid">
+  <a href="@@link" class="category__link category__bg category__bg_accessories" style="background-image: url(./static/images/product-4.png)">
+    <span class="category__name">Accessories</span>
+  </a>
+</li>
+        </ul>
+        <div class="category__nav">
+          <div class="category__buttons">
+            <button class="category__button">
+              <span class="category__button_left"></span>
+            </button>
+            <button class="category__button">
+              <span class="category__button_right"></span>
+            </button>
+          </div>
+          <p class="category__text">
+            Modern finds for the modern home. Curated goods by unique
+            designers around the world from fashion to furniture for
+            kids and adults.
+          </p>
+        </div>
+      </section>
+      <section class="services container">
+        <div class="services__image"></div>
+        <div class="services__wrapper">
+          <h2 class="block-title services__title">Delivery</h2>
+          <ul class="services__buttons">
+            <li><button class="services__button services__button_active">Delivery</button></li>
+            <li><button class="services__button">Guarantee</button></li>
+            <li><button class="services__button">Credit</button></li>
+          </ul>
+          <div class="services__text">
+            <p>
+              Some days i feel like i've been working on dlk my entire
+              life and there are other days that i am completely shocked
+              that four years have flown by. It's simply magical.
+            </p>
+            <p>
+              What started as an outlet to deal with the traumatic loss
+              of my husband, dlk has now become a truly happy place for
+              me and i have you and all of the beautiful designers that
+              we work with to thank!
+            </p>
+          </div>
+          <a href="#" class="button services__btn-learn">Learn More</a>
+        </div>
+      </section>
+      <section class="partners container">
+        <h2 class="hidden">Partners</h2>
+        <ul class="partners__list">
+          <li><a href="#" class="partners__item"><img src="./static/images/partner-1.png" alt="Mail.ru"/></a></li>
+          <li><a href="#" class="partners__item"><img src="./static/images/partner-2.png" alt="apple"/></a></li>
+          <li><a href="#" class="partners__item"><img src="./static/images/partner-3.png" alt="Eltex"/></a></li>
+          <li><a href="#" class="partners__item"><img src="./static/images/partner-4.png" alt="Owox"/></a></li>
+        </ul>
+      </section>
+      <section class="container block-article">
+        <article class="about">
+          <h2 class="block-title about__title">Design Life Kids</h2>
+          <div class="about__subtitle">About Us</div>
+          <p class="about__text">
+            Some days i feel like i've been working on dlk my entire life
+            and there are other days that i am completely shocked that
+            four years have flown by. It's simply magical.
+          </p>
+          <a href="#" class="button about__btn">Buy Now</a>
+        </article>
+        <article class="contacts">
+          <h2 class="block-title contacts__title">Contacts</h2>
+          <p class="contacts__text">
+            Some days i feel like i've been working on dlk my entire life
+            and there are other days that i am completely shocked that
+            four years have flown by. It's simply magical.
+          </p>
+          <div class="contacts__map">
+            <iframe class="contacts__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.5357565744243!2d49.288136315736814!3d53.512487980014185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41687981eb77e79b%3A0xc6236db15e1d074e!2sProspekt%20Stepana%20Razina%2C%2044%2C%20Tolyatti%2C%20Samarskaya%20oblast&#39;%2C%20445027!5e0!3m2!1sen!2sru!4v1581966809722!5m2!1sen!2sru"></iframe>
+          </div>
+        </article>
+      </section>
+      <div class="modal-window modal-window_js modal-window_close">
+        <div class="modal-window__content">
+          <form class="contact-form" action="https://form-data-dl.herokuapp.com/api/messages" method="POST">
+  <label class="contact-form__label">
+    <input type="text" class="contact-form__input" name="name">
+    <span class="contact-form__text">Name</span>
+  </label>
+  <label class="contact-form__label contact-form__label_half">
+    <input type="text" class="contact-form__input" name="phone" value="+7">
+    <span class="contact-form__text">Phone</span>
+  </label>
+  <label class="contact-form__label contact-form__label_half">
+    <input type="email" class="contact-form__input" name="email">
+    <span class="contact-form__text">Email</span>
+  </label>
+  <label class="contact-form__message">
+    <textarea name="message" class="contact-form__textarea"></textarea>
+    <span class="contact-form__text">Message</span>
+  </label>
+  <label class="checkbox contact-form__checkbox">
+  <input class="checkbox__input hidden" type="checkbox" name="accept" value="accept" @@checked>
+  <span class="checkbox__box"></span>
+  <span class="checkbox__form">By clicking on the button, you consent to the processing of your personal data</span> 
+</label>
+  <button class="button contact-form__button" type="submit">Submit</button>
+</form>
+          <button class="form-close form-close_js" type="button">+</button>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__wrapper">
+      <div class="footer__section">
+        <h2 class="footer__title">Navigation</h2>
+        <hr>
+        <ul class="footer__links">
+          <li><a href="#" class="footer__link">About Us</a></li>
+          <li><a href="#" class="footer__link">Blog</a></li>
+          <li><a href="#" class="footer__link">Design Services</a></li>
+          <li><a href="#" class="footer__link">Featured On</a></li>
+          <li><a href="#" class="footer__link">2018 Holiday Catalog</a></li>
+          <li><a href="#" class="footer__link">Shop By Designer</a></li>
+        </ul>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Customer Information</h2>
+        <hr>
+        <ul class="footer__links">
+          <li><a href="#" class="footer__link">Contact Us</a></li>
+          <li><a href="#" class="footer__link">Sale Exclusions</a></li>
+          <li><a href="#" class="footer__link">Shipping & Returns</a></li>
+          <li><a href="#" class="footer__link">Terms & Conditions</a></li>
+          <li><a href="#" class="footer__link">Privacy Policy</a></li>
+          <li><a href="#" class="footer__link">Search</a></li>
+        </ul>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Connect</h2>
+        <hr>
+        <form class="footer__form">
+          <input type="email" class="footer__input" name="email" placeholder="Email"/><button class="button" type="type='submit'">Join</button>
+        </form>
+        <ul class="footer__social-links">
+  <li>
+    <a href="#" class="footer__social-link">
+      <img src="../../static/images/Facebook.svg" alt="Facebook" />
+    </a>
+  </li>
+  <li>
+    <a href="#" class="footer__social-link">
+      <img src="../../static/images/Twitter.svg" alt="Twitter" />
+    </a>
+  </li>
+  <li>
+    <a href="#" class="footer__social-link">
+      <img src="../../static/images/Pinterest.svg" alt="Pinterest" />
+    </a>
+  </li>
+  <li>
+    <a href="#" class="footer__social-link">
+      <img src="../../static/images/Instagram.svg" alt="Instagram" />
+    </a>
+  </li>
+</ul>
+      </div>
+    </div>
+    <hr class="footer__devider">
+    <div class="footer__info">
+      <div class="footer__rating">
+        <span>Company Rating</span>
+        <fieldset class="rating">
+  <div class="rating__group">
+    <input class="rating__star" type="radio" name="health" value="1" aria-label="Bad" checked>
+    <input class="rating__star" type="radio" name="health" value="2" aria-label="Ok">
+    <input class="rating__star" type="radio" name="health" value="3" aria-label="Good">
+    <input class="rating__star" type="radio" name="health" value="4" aria-label="Very Good">
+    <input class="rating__star" type="radio" name="health" value="5" aria-label="Awesome">
+  </div>
+</fieldset>
+      </div>
+      <span class="footer__copyright">Copyright © 2018 Dlk • Design Life Kids</span>
+      <a href="#" class="footer__devlink">Web Design — Direct Line Development</a>
+      </div>
+    </div>
+  </div>
+</footer>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
